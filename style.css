@@ -42,6 +42,10 @@ a {
   max-width: 1440px;
 }
 
+.header {
+  background: url(./assets/img/louvre-main.jpg);
+}
+
 .header__menu {
   color: var(--white);
 }
@@ -54,10 +58,13 @@ a {
 }
 
 .logo__text {
+  font-family: "Forum", serif;
   letter-spacing: 5px;
   font-size: 28px;
   line-height: 50px;
-  text-transform: uppercase;;
+  text-transform: uppercase;
+  margin-left: 20px;
+  color: var(--white);
 }
 
 .menu__list {
@@ -72,4 +79,9 @@ a {
   font-size: 22px;
   font-weight: 100;
   line-height: 50px;
+  padding: 10px;
+}
+
+.menu__link {
+  color: var(--white);
 }
