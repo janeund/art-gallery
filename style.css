@@ -27,8 +27,8 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-ul {
-  list-style-type: none;
+li {
+  list-style: none;
 }
 
 a {
@@ -40,4 +40,36 @@ a {
   margin: 0 auto;
   width: 1440px;
   max-width: 1440px;
+}
+
+.header__menu {
+  color: var(--white);
+}
+
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo__text {
+  letter-spacing: 5px;
+  font-size: 28px;
+  line-height: 50px;
+  text-transform: uppercase;;
+}
+
+.menu__list {
+  width: 720px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__item {
+  font-size: 22px;
+  font-weight: 100;
+  line-height: 50px;
 }
