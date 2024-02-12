@@ -43,7 +43,7 @@ a {
 }
 
 .header {
-  background: url(./assets/img/louvre-main.jpg);
+  background-color: var(--bg-dark);
 }
 
 .header__menu {
