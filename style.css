@@ -30,6 +30,8 @@
 **::before, 
 **::after {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 /* Reset margins */
@@ -43,6 +45,8 @@ p,
 figure,
 picture {
   margin: 0;
+  font-weight: inherit;
+  font-size: inherit;
 }
 
 /* Set up the body */
@@ -66,6 +70,16 @@ select {
   font: inherit;
 }
 
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 /* Remove animations for whom turned off */
 @media (prefers-reduced-motion: reduce) {
   *,
@@ -77,4 +91,8 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+/* ------------------- */
+/* Elements style      */
+/* ------------------- */
 
